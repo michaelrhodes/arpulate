@@ -1,8 +1,6 @@
 # arpulate
 arpulate populates the system ARP table by pinging a range of IP addresses that surround the local computer.
 
-[![Build status](https://travis-ci.org/michaelrhodes/arpulate.png?branch=master)](https://travis-ci.org/michaelrhodes/arpulate)
-
 ## Install
 ```
 npm install arpulate

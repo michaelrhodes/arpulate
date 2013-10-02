@@ -1,6 +1,6 @@
 {
   "name": "arpulate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A utility that populates the system ARP table by pinging a range of IP addresses that surround the local computer.",
   "main": "index.js",
   "directories": {
