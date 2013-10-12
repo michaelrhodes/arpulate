@@ -28,7 +28,7 @@ arpulate(
 ``` js
 var arpulate = require('arpulate')
 
-arpulate(20, function() {
+arpulate('192.168.0.10', 20, function() {
  console.log('All done') 
 })
 ```
