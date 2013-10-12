@@ -1,13 +1,12 @@
-var localip = require('my-local-ip')()
 var range = require('ipv4-range')
 var ping = require('ping').sys.probe
 
-module.exports = function(total, callback) {
+module.exports = function(address, total, callback) {
 
   var countdown = total
  
   // Get a range of surrounding IP addresses
-  range(localip, total)
+  range(address, total)
   
   // Add them to the ARP table
   .forEach(function(address, index) {

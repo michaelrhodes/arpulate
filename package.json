@@ -1,29 +1,28 @@
 {
   "name": "arpulate",
-  "version": "0.0.1",
-  "description": "A utility that populates the system ARP table by pinging a range of IP addresses that surround the local computer.",
+  "version": "0.1.0",
+  "description": "A utility that populates the system ARP table by pinging a range of surrounding IP addresses.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "my-local-ip": "~1.0.0",
     "ipv4-range": "~0.0.0",
     "ping": "~0.1.6"
   },
   "devDependencies": {
     "tape": "~1.1.1",
     "arp-table": "~0.0.0",
-    "parse-ipv4": "~0.0.2",
-    "split": "~0.2.10",
-    "my-local-ip": "~1.0.0"
+    "arp-parse": "0.0.2",
+    "my-local-ip": "~1.0.0",
+    "concat-stream": "~1.0.1"
   },
   "scripts": {
     "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/michaelrhodes/arpulate"
+    "url": "https://github.com/michaelrhodes/arpulate"
   },
   "keywords": [
     "arp",

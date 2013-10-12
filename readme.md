@@ -1,5 +1,5 @@
 # arpulate
-arpulate populates the system ARP table by pinging a range of IP addresses that surround the local computer.
+arpulate populates the system ARP table by pinging a range of surrounding IP addresses.
 
 ## Install
 ```
@@ -9,6 +9,10 @@ npm install arpulate
 ## API
 ``` 
 arpulate(
+  
+  address (string):
+    the ip address you want the range to
+    surround.
 
   total (int):
     the number of addresses you wish to ping.
